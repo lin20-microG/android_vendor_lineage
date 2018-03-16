@@ -13,6 +13,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
 endif
 
+# Make sure that device overlays won't prevent the use
+# of microG as location provider
+PRODUCT_PACKAGE_OVERLAYS := vendor/lineage/overlay/microg
+
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 # Disable ADB authentication
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=0
