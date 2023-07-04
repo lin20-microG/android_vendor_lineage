@@ -23,6 +23,12 @@ PRODUCT_PACKAGES += \
 	GsfProxy \
 	FakeStore
 
+# Aurora OSS
+PRODUCT_PACKAGES += \
+        AuroraDroid \
+        AuroraServices \
+        AuroraStore
+
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 # Disable ADB authentication
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=0
