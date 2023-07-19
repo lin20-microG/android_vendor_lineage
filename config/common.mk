@@ -39,7 +39,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += z_iptables
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
         system/bin/z_iptables \
-        system/etc/init/z_iptables.rc
+        system/etc/init/z_iptables.rc \
+        system/etc/microg.xml
 
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 # Disable ADB authentication
