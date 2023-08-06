@@ -24,6 +24,12 @@ endif
 # of microG as location provider
 PRODUCT_PACKAGE_OVERLAYS := vendor/lineage/overlay/microg
 
+# Updater URI and changelog
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    lineage.updater.uri=https://raw.githubusercontent.com/lin20-microG/OTA/lin-20.0-microG/$(LINEAGE_BUILD).json
+DEVICE_PACKAGE_OVERLAYS += \
+    vendor/lineage/overlay/changelog/$(LINEAGE_BUILD)
+
 # MicroG packages
 PRODUCT_PACKAGES += \
 	GmsCore \
