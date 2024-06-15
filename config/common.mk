@@ -35,10 +35,12 @@ PRODUCT_PACKAGES += \
 	GmsCore \
 	GsfProxy \
 	FakeStore
-
+# F-Droid
+PRODUCT_PACKAGES += \
+    FDroid \
+    FDroidPrivilegedExtension
 # Aurora OSS
 PRODUCT_PACKAGES += \
-        AuroraDroid \
         AuroraServices \
         AuroraStore
 # IPTABLES Block script
