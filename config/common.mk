@@ -37,6 +37,7 @@ PRODUCT_PACKAGES += \
 	FakeStore
 # F-Droid
 PRODUCT_PACKAGES += \
+    additional_repos.xml \
     FDroid \
     FDroidPrivilegedExtension
 # Aurora OSS
