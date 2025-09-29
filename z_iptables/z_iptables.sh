@@ -33,6 +33,7 @@ com.google.android.gms
 com.netflix.mediaclient
 com.vonglasow.michael.satstat
 eu.faircode.email
+net.osmand.plus
 org.cromite.cromite
 org.freeandroidtools.safetynettest
 org.lineageos.jelly
