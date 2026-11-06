@@ -41,8 +41,7 @@ PRODUCT_PACKAGES += \
 # F-Droid
 PRODUCT_PACKAGES += \
     additional_repos.xml \
-    FDroid \
-    FDroidPrivilegedExtension
+    FDroid
 # Aurora OSS
 PRODUCT_PACKAGES += \
         AuroraServices \
